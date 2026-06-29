@@ -16,9 +16,9 @@ void main() {
   
   print(studentScores['Python']);
   studentScores['Algorithms'] = 66 ;
- 
-  
-  
+  print('Updated scores: $studentScores');
+  print('All subjects in map: ${studentScores.keys}');
+  print('All scores in map: ${studentScores.values}');
   
 }
  
